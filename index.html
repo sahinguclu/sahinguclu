@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="&#x15E;ahin G&#xFC;&#xE7;l&#xFC; - Ideas that turn into tools. Open source. Zero accounts. Zero databases.">
+  <title>&#x15E;ahin G&#xFC;&#xE7;l&#xFC;</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" as="image" href="images/authlama/authlama-01.png">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#authlama">Authlama</a>
+        <a href="#gizlock">Gizlock</a>
+        <a href="#hypevox">HypeVox</a>
+        <a href="#about">About</a>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode" title="Toggle theme">
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+      <div class="hero-orb hero-orb-3"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name"><span id="heroNameFirst">&#x15E;ahin</span> <span class="hero-name-accent" id="heroNameAccent">G&#xFC;&#xE7;l&#xFC;</span></h1>
+      <p class="hero-tagline">I build <span class="txt-rotate" id="txtRotate"></span></p>
+      <p class="hero-sub">Ideas that turn into tools. Late-night builds. Open source. Zero accounts. Zero databases. Just whatever needs making.</p>
+      <div class="hero-cta">
+        <a href="#authlama" class="btn btn-primary">
+          View My Work
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="https://github.com/sahinguclu" class="btn btn-ghost" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+    <a href="#authlama" class="scroll-indicator" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <section class="project" id="authlama">
+    <div class="container">
+      <div class="project-header">
+        <div class="project-title-row">
+          <h2 class="project-title">Authlama</h2>
+          <span class="badge badge-concept">Concept</span>
+        </div>
+        <p class="project-tagline">A serverless, zero-database encrypted TOTP code manager. Save your 2FA codes as a single encrypted file. Nothing is stored anywhere.</p>
+        <div class="project-links">
+          <a href="https://authlama.pages.dev" class="link-demo" target="_blank" rel="noopener">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            authlama.pages.dev
+          </a>
+          <a href="https://github.com/sahinguclu/Authlama" class="link-source" target="_blank" rel="noopener">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            Source Code
+          </a>
+        </div>
+      </div>
+
+      <div class="project-body">
+        <div class="project-desc">
+          <h3>Why Authlama?</h3>
+          <p>Your 2FA codes deserve real protection. Save them in the cloud - you trust a third party. Save them on your device - you lose everything if it breaks. Authlama gives you a single encrypted file: <code>secret.txt</code>. That file is your vault. AES-256-GCM encrypts every code inside. No server. No database. No account. You hold the key. You make the rules.</p>
+        </div>
+
+        <div class="project-features">
+          <h3>Key Features</h3>
+          <ul class="feature-grid">
+            <li><span class="feature-icon">&#x1F510;</span> TOTP code generation - scan QR codes or enter secrets manually</li>
+            <li><span class="feature-icon">&#x26A1;</span> Session mode - codes disappear when you close the tab</li>
+            <li><span class="feature-icon">&#x1F6E1;</span> AES-256-GCM encryption via Web Crypto API</li>
+            <li><span class="feature-icon">&#x1F511;</span> Password protection with PBKDF2 (600,000 iterations)</li>
+            <li><span class="feature-icon">&#x1F4E5;</span> Download as secret.txt - save the encrypted key anywhere</li>
+            <li><span class="feature-icon">&#x1F4E4;</span> File upload to unlock - upload secret.txt + password</li>
+            <li><span class="feature-icon">&#x1F504;</span> Re-encrypt on edit - new key invalidates old one</li>
+            <li><span class="feature-icon">&#x1F313;</span> Dark / Light mode with localStorage persistence</li>
+            <li><span class="feature-icon">&#x1F9F9;</span> Auto-cleanup on exit - all session data wiped</li>
+          </ul>
+        </div>
+
+        <div class="gallery-wrapper">
+          <h3>Screenshots</h3>
+          <div class="gallery" id="galleryAuthlama">
+            <div class="gallery-track" id="galleryTrackAuthlama">
+              <div class="gallery-item" data-full="images/authlama/authlama-01.png" data-caption="Home page">
+                <img src="images/authlama/authlama-01.png" alt="Authlama Home Page" loading="lazy">
+              </div>
+              <div class="gallery-item" data-full="images/authlama/authlama-02.png" data-caption="Creating a new TOTP code">
+                <img src="images/authlama/authlama-02.png" alt="Authlama - creating TOTP code" loading="lazy">
+              </div>
+              <div class="gallery-item" data-full="images/authlama/authlama-03.png" data-caption="Live countdown - codes refresh every 30 seconds">
+                <img src="images/authlama/authlama-03.png" alt="Authlama - code with 30s countdown" loading="lazy">
+              </div>
+              <div class="gallery-item" data-full="images/authlama/authlama-04.png" data-caption="Save key - name your key and set a password">
+                <img src="images/authlama/authlama-04.png" alt="Authlama - saving key with name and password" loading="lazy">
+              </div>
+              <div class="gallery-item" data-full="images/authlama/authlama-05.png" data-caption="Key saved - download secret.txt or copy the blob">
+                <img src="images/authlama/authlama-05.png" alt="Authlama - download secret.txt" loading="lazy">
+              </div>
+              <div class="gallery-item" data-full="images/authlama/authlama-06.png" data-caption="Load key - upload secret.txt or paste the blob">
+                <img src="images/authlama/authlama-06.png" alt="Authlama - uploading secret.txt" loading="lazy">
+              </div>
+              <div class="gallery-item" data-full="images/authlama/authlama-07.png" data-caption="Enter your password to decrypt">
+                <img src="images/authlama/authlama-07.png" alt="Authlama - enter password to unlock" loading="lazy">
+              </div>
+              <div class="gallery-item" data-full="images/authlama/authlama-08.png" data-caption="Decrypted - codes restored with live timers">
+                <img src="images/authlama/authlama-08.png" alt="Authlama - unlocked codes restored" loading="lazy">
+              </div>
+              <div class="gallery-item" data-full="images/authlama/authlama-09.png" data-caption="Manage keys - save new, load another, re-encrypt">
+                <img src="images/authlama/authlama-09.png" alt="Authlama - multiple key management" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="gallery-controls">
+            <button class="gallery-btn gallery-prev" data-gallery="galleryAuthlama" aria-label="Previous">&#x2190;</button>
+            <button class="gallery-btn gallery-next" data-gallery="galleryAuthlama" aria-label="Next">&#x2192;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project project-alt" id="gizlock">
+    <div class="container">
+      <div class="project-header">
+        <div class="project-title-row">
+          <h2 class="project-title">Gizlock</h2>
+          <span class="badge badge-concept">Concept</span>
+        </div>
+        <p class="project-tagline">A serverless, zero-database encrypted publishing tool. Write a page. Share a link. Nothing is stored anywhere.</p>
+        <div class="project-links">
+          <a href="https://gizlock.pages.dev" class="link-demo" target="_blank" rel="noopener">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            gizlock.pages.dev
+          </a>
+          <a href="https://github.com/sahinguclu/Gizlock" class="link-source" target="_blank" rel="noopener">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            Source Code
+          </a>
+        </div>
+      </div>
+
+      <div class="project-body">
+        <div class="project-desc">
+          <h3>Why Gizlock?</h3>
+          <p>Every time you publish, you hand your words to a platform. They can delete your post. Suspend your account. Shut down entirely. Gizlock removes storage. Your article lives inside the link itself - compressed, encrypted with AES-256-GCM. The link <em>is</em> the article. No server holds it. No one can take it down. There is nothing to take down.</p>
+        </div>
+
+        <div class="project-features">
+          <h3>Key Features</h3>
+          <ul class="feature-grid">
+            <li><span class="feature-icon">&#x1F6AB;</span> Zero accounts - no sign-up, no login, no tracking</li>
+            <li><span class="feature-icon">&#x1F4BE;</span> Zero server storage - content never touches a database</li>
+            <li><span class="feature-icon">&#x1F512;</span> AES-256-GCM encryption - client-side, Web Crypto API</li>
+            <li><span class="feature-icon">&#x1F511;</span> Password protection via PBKDF2 (100,000 iterations)</li>
+            <li><span class="feature-icon">&#x23F1;</span> Time-locked access - Valid From / Valid Until dates</li>
+            <li><span class="feature-icon">&#x1F550;</span> NTP-verified time - checked against real internet time servers</li>
+            <li><span class="feature-icon">&#x270D;</span> Rich text editor - bold, italic, headings, lists, images</li>
+            <li><span class="feature-icon">&#x1F517;</span> Auto-linking - pasted URLs become clickable on publish</li>
+            <li><span class="feature-icon">&#x1F5DC;</span> LZString compression - keeps links as short as possible</li>
+          </ul>
+        </div>
+
+        <div class="gallery-wrapper">
+          <h3>Screenshots</h3>
+          <div class="gallery" id="galleryGizlock">
+            <div class="gallery-track" id="galleryTrackGizlock">
+              <div class="gallery-item" data-full="images/gizlock/gizlock-01.png" data-caption="Home page - write and publish from here">
+                <img src="images/gizlock/gizlock-01.png" alt="Gizlock Home Page" loading="lazy">
+              </div>
+              <div class="gallery-item" data-full="images/gizlock/gizlock-02.png" data-caption="Creating an encrypted link - the link IS the article">
+                <img src="images/gizlock/gizlock-02.png" alt="Gizlock - creating encrypted link" loading="lazy">
+              </div>
+              <div class="gallery-item" data-full="images/gizlock/gizlock-03.png" data-caption="Locked page - password prompt, payload lives in the URL fragment">
+                <img src="images/gizlock/gizlock-03.png" alt="Gizlock - locked page with password prompt" loading="lazy">
+              </div>
+              <div class="gallery-item" data-full="images/gizlock/gizlock-04.png" data-caption="Decrypted - rendered client-side, nothing stored on any server">
+                <img src="images/gizlock/gizlock-04.png" alt="Gizlock - unlocked page" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="gallery-controls">
+            <button class="gallery-btn gallery-prev" data-gallery="galleryGizlock" aria-label="Previous">&#x2190;</button>
+            <button class="gallery-btn gallery-next" data-gallery="galleryGizlock" aria-label="Next">&#x2192;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project" id="hypevox">
+    <div class="container">
+      <div class="project-header">
+        <div class="project-title-row">
+          <h2 class="project-title">HypeVox</h2>
+        </div>
+        <p class="project-tagline">Audio control for any browser tab - volume up to 1000%, 12 sound profiles, 54 languages, and zero trackers.</p>
+        <div class="project-links">
+          <a href="https://chromewebstore.google.com/detail/hypevox/dojhpcicjaepkgjmdiekjhokckijeiek" class="link-demo" target="_blank" rel="noopener">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Chrome Web Store
+          </a>
+          <a href="https://github.com/sahinguclu/HypeVox" class="link-source" target="_blank" rel="noopener">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            Source Code
+          </a>
+        </div>
+      </div>
+
+      <div class="project-body">
+        <div class="project-desc">
+          <h3>Why HypeVox?</h3>
+          <p>Take control of audio in any browser tab. Boost volume up to 1000%. Apply one of 12 sound profiles - Bass, Voice, Treble, Podcast, and more. Works in 54 languages. Zero trackers. Zero telemetry. Just audio, under your control.</p>
+        </div>
+
+        <div class="project-features">
+          <h3>Key Features</h3>
+          <ul class="feature-grid">
+            <li><span class="feature-icon">&#x1F50A;</span> Volume Boost - Mute (0%) to 1000% on any tab</li>
+            <li><span class="feature-icon">&#x1F39B;</span> 12 Sound Profiles - Bass, Voice, Treble, Podcast, Rock, Pop &amp; more</li>
+            <li><span class="feature-icon">&#x1F313;</span> Dark Mode - Toggle light/dark, preference saved</li>
+            <li><span class="feature-icon">&#x2328;</span> Keyboard Shortcuts - 0-8 for landmarks, arrows for fine control</li>
+            <li><span class="feature-icon">&#x1F509;</span> Audible Tabs - See and switch to any tab playing audio</li>
+            <li><span class="feature-icon">&#x1F30D;</span> 54 Languages - Full UI translations</li>
+            <li><span class="feature-icon">&#x1F6E1;</span> Zero Trackers - No analytics, no telemetry, no external calls</li>
+          </ul>
+        </div>
+
+        <div class="gallery-wrapper">
+          <h3>Screenshots</h3>
+          <div class="gallery" id="galleryHypevox">
+            <div class="gallery-track" id="galleryTrackHypevox">
+              <div class="gallery-item" data-full="images/hypevox/hypevox-01.png" data-caption="Extension popup - volume slider with sound profiles">
+                <img src="images/hypevox/hypevox-01.png" alt="HypeVox Extension Preview" loading="lazy">
+              </div>
+              <div class="gallery-item" data-full="images/hypevox/hypevox-02.png" data-caption="Dark mode - full theme support, preference saved">
+                <img src="images/hypevox/hypevox-02.png" alt="HypeVox Dark Mode" loading="lazy">
+              </div>
+              <div class="gallery-item" data-full="images/hypevox/hypevox-03.png" data-caption="Volume at 200% - 12 EQ presets to choose from">
+                <img src="images/hypevox/hypevox-03.png" alt="HypeVox - 200% volume with profiles" loading="lazy">
+              </div>
+              <div class="gallery-item" data-full="images/hypevox/hypevox-04.png" data-caption="54 languages - every label translated">
+                <img src="images/hypevox/hypevox-04.png" alt="HypeVox - language support" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="gallery-controls">
+            <button class="gallery-btn gallery-prev" data-gallery="galleryHypevox" aria-label="Previous">&#x2190;</button>
+            <button class="gallery-btn gallery-next" data-gallery="galleryHypevox" aria-label="Next">&#x2192;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I make things when an idea hits. Sometimes it's a privacy tool. Sometimes a browser extension. No plan. No roadmap. Just a late night and a problem that needed solving.</p>
+          <p>Encrypted 2FA managers. Self-destructing publishing tools. Audio extensions for any tab. I build whatever sticks in my head until it works. All of it open source. MIT licensed. Always.</p>
+          <p>No frameworks when plain HTML, CSS, and JS do the job. No backend when the browser handles it. No tracking. No accounts. No databases. Just code. Just ideas.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">3+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Open Source</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">0</span>
+            <span class="stat-label">Trackers</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <p>Made by &#x15E;ahin G&#xFC;&#xE7;l&#xFC; with &#x2764;&#xFE0F;</p>
+        </div>
+        <div class="footer-right">
+          <a href="https://github.com/sahinguclu" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">&#x2715;</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image">&#x2039;</button>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next image">&#x203A;</button>
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightboxImg">
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
