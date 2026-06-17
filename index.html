@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="&#x15E;ahin G&#xFC;&#xE7;l&#xFC; - Ideas that turn into tools. Open source. Zero accounts. Zero databases.">
   <title>&#x15E;ahin G&#xFC;&#xE7;l&#xFC;</title>
+  <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/86470232">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preload" as="image" href="images/authlama/authlama-01.png">
 </head>
@@ -33,9 +34,13 @@
 
   <section class="hero" id="home">
     <div class="hero-bg">
-      <div class="hero-orb hero-orb-1"></div>
-      <div class="hero-orb hero-orb-2"></div>
-      <div class="hero-orb hero-orb-3"></div>
+      <div class="lava-orb"></div>
+      <div class="lava-orb"></div>
+      <div class="lava-orb"></div>
+      <div class="lava-orb"></div>
+      <div class="lava-orb"></div>
+      <div class="lava-orb"></div>
+      <div class="lava-orb"></div>
       <div class="hero-grid"></div>
     </div>
     <div class="hero-content">
@@ -88,15 +93,15 @@
         <div class="project-features">
           <h3>Key Features</h3>
           <ul class="feature-grid">
-            <li><span class="feature-icon">&#x1F510;</span> TOTP code generation - scan QR codes or enter secrets manually</li>
-            <li><span class="feature-icon">&#x26A1;</span> Session mode - codes disappear when you close the tab</li>
-            <li><span class="feature-icon">&#x1F6E1;</span> AES-256-GCM encryption via Web Crypto API</li>
-            <li><span class="feature-icon">&#x1F511;</span> Password protection with PBKDF2 (600,000 iterations)</li>
-            <li><span class="feature-icon">&#x1F4E5;</span> Download as secret.txt - save the encrypted key anywhere</li>
-            <li><span class="feature-icon">&#x1F4E4;</span> File upload to unlock - upload secret.txt + password</li>
-            <li><span class="feature-icon">&#x1F504;</span> Re-encrypt on edit - new key invalidates old one</li>
-            <li><span class="feature-icon">&#x1F313;</span> Dark / Light mode with localStorage persistence</li>
-            <li><span class="feature-icon">&#x1F9F9;</span> Auto-cleanup on exit - all session data wiped</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><line x1="7" y1="12" x2="17" y2="12"/></svg></span> TOTP code generation - scan QR codes or enter secrets manually</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span> Session mode - codes disappear when you close the tab</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></span> AES-256-GCM encryption via Web Crypto API</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 2-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.78 7.78 5.5 5.5 0 0 1 7.78-7.78zm0 0L15.5 7.5m0 0 3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg></span> Password protection with PBKDF2 (600,000 iterations)</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></span> Download as secret.txt - save the encrypted key anywhere</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg></span> File upload to unlock - upload secret.txt + password</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 4v6h6"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg></span> Re-encrypt on edit - new key invalidates old one</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg></span> Dark / Light mode with localStorage persistence</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/></svg></span> Auto-cleanup on exit - all session data wiped</li>
           </ul>
         </div>
 
@@ -105,31 +110,31 @@
           <div class="gallery" id="galleryAuthlama">
             <div class="gallery-track" id="galleryTrackAuthlama">
               <div class="gallery-item" data-full="images/authlama/authlama-01.png" data-caption="Home page">
-                <img src="images/authlama/authlama-01.png" alt="Authlama Home Page" loading="lazy">
+                <img src="images/authlama/authlama-01.png" alt="Authlama Home Page" loading="eager">
               </div>
               <div class="gallery-item" data-full="images/authlama/authlama-02.png" data-caption="Creating a new TOTP code">
-                <img src="images/authlama/authlama-02.png" alt="Authlama - creating TOTP code" loading="lazy">
+                <img src="images/authlama/authlama-02.png" alt="Authlama - creating TOTP code" loading="eager">
               </div>
               <div class="gallery-item" data-full="images/authlama/authlama-03.png" data-caption="Live countdown - codes refresh every 30 seconds">
-                <img src="images/authlama/authlama-03.png" alt="Authlama - code with 30s countdown" loading="lazy">
+                <img src="images/authlama/authlama-03.png" alt="Authlama - code with 30s countdown" loading="eager">
               </div>
               <div class="gallery-item" data-full="images/authlama/authlama-04.png" data-caption="Save key - name your key and set a password">
-                <img src="images/authlama/authlama-04.png" alt="Authlama - saving key with name and password" loading="lazy">
+                <img src="images/authlama/authlama-04.png" alt="Authlama - saving key with name and password" loading="eager">
               </div>
               <div class="gallery-item" data-full="images/authlama/authlama-05.png" data-caption="Key saved - download secret.txt or copy the blob">
-                <img src="images/authlama/authlama-05.png" alt="Authlama - download secret.txt" loading="lazy">
+                <img src="images/authlama/authlama-05.png" alt="Authlama - download secret.txt" loading="eager">
               </div>
               <div class="gallery-item" data-full="images/authlama/authlama-06.png" data-caption="Load key - upload secret.txt or paste the blob">
-                <img src="images/authlama/authlama-06.png" alt="Authlama - uploading secret.txt" loading="lazy">
+                <img src="images/authlama/authlama-06.png" alt="Authlama - uploading secret.txt" loading="eager">
               </div>
               <div class="gallery-item" data-full="images/authlama/authlama-07.png" data-caption="Enter your password to decrypt">
-                <img src="images/authlama/authlama-07.png" alt="Authlama - enter password to unlock" loading="lazy">
+                <img src="images/authlama/authlama-07.png" alt="Authlama - enter password to unlock" loading="eager">
               </div>
               <div class="gallery-item" data-full="images/authlama/authlama-08.png" data-caption="Decrypted - codes restored with live timers">
-                <img src="images/authlama/authlama-08.png" alt="Authlama - unlocked codes restored" loading="lazy">
+                <img src="images/authlama/authlama-08.png" alt="Authlama - unlocked codes restored" loading="eager">
               </div>
               <div class="gallery-item" data-full="images/authlama/authlama-09.png" data-caption="Manage keys - save new, load another, re-encrypt">
-                <img src="images/authlama/authlama-09.png" alt="Authlama - multiple key management" loading="lazy">
+                <img src="images/authlama/authlama-09.png" alt="Authlama - multiple key management" loading="eager">
               </div>
             </div>
           </div>
@@ -171,15 +176,15 @@
         <div class="project-features">
           <h3>Key Features</h3>
           <ul class="feature-grid">
-            <li><span class="feature-icon">&#x1F6AB;</span> Zero accounts - no sign-up, no login, no tracking</li>
-            <li><span class="feature-icon">&#x1F4BE;</span> Zero server storage - content never touches a database</li>
-            <li><span class="feature-icon">&#x1F512;</span> AES-256-GCM encryption - client-side, Web Crypto API</li>
-            <li><span class="feature-icon">&#x1F511;</span> Password protection via PBKDF2 (100,000 iterations)</li>
-            <li><span class="feature-icon">&#x23F1;</span> Time-locked access - Valid From / Valid Until dates</li>
-            <li><span class="feature-icon">&#x1F550;</span> NTP-verified time - checked against real internet time servers</li>
-            <li><span class="feature-icon">&#x270D;</span> Rich text editor - bold, italic, headings, lists, images</li>
-            <li><span class="feature-icon">&#x1F517;</span> Auto-linking - pasted URLs become clickable on publish</li>
-            <li><span class="feature-icon">&#x1F5DC;</span> LZString compression - keeps links as short as possible</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="17" y1="8" x2="23" y2="14"/><line x1="23" y1="8" x2="17" y2="14"/></svg></span> Zero accounts - no sign-up, no login, no tracking</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></span> Zero server storage - content never touches a database</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span> AES-256-GCM encryption - client-side, Web Crypto API</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 2-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.78 7.78 5.5 5.5 0 0 1 7.78-7.78zm0 0L15.5 7.5m0 0 3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg></span> Password protection - PBKDF2 key derivation with strength checking</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span> Time-locked access - Valid From / Valid Until dates</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 12"/></svg></span> NTP-verified time - checked against real internet time servers, not the device clock</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.83 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg></span> Rich text editor - bold, italic, headings, lists, tables, code blocks</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></span> Auto-linking - pasted URLs become clickable on publish</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 12 3 20 7"/><polyline points="4 17 12 21 20 17"/><line x1="4" y1="12" x2="20" y2="12"/></svg></span> LZString compression - keeps generated links as short as possible</li>
           </ul>
         </div>
 
@@ -188,16 +193,16 @@
           <div class="gallery" id="galleryGizlock">
             <div class="gallery-track" id="galleryTrackGizlock">
               <div class="gallery-item" data-full="images/gizlock/gizlock-01.png" data-caption="Home page - write and publish from here">
-                <img src="images/gizlock/gizlock-01.png" alt="Gizlock Home Page" loading="lazy">
+                <img src="images/gizlock/gizlock-01.png" alt="Gizlock Home Page" loading="eager">
               </div>
               <div class="gallery-item" data-full="images/gizlock/gizlock-02.png" data-caption="Creating an encrypted link - the link IS the article">
-                <img src="images/gizlock/gizlock-02.png" alt="Gizlock - creating encrypted link" loading="lazy">
+                <img src="images/gizlock/gizlock-02.png" alt="Gizlock - creating encrypted link" loading="eager">
               </div>
               <div class="gallery-item" data-full="images/gizlock/gizlock-03.png" data-caption="Locked page - password prompt, payload lives in the URL fragment">
-                <img src="images/gizlock/gizlock-03.png" alt="Gizlock - locked page with password prompt" loading="lazy">
+                <img src="images/gizlock/gizlock-03.png" alt="Gizlock - locked page with password prompt" loading="eager">
               </div>
               <div class="gallery-item" data-full="images/gizlock/gizlock-04.png" data-caption="Decrypted - rendered client-side, nothing stored on any server">
-                <img src="images/gizlock/gizlock-04.png" alt="Gizlock - unlocked page" loading="lazy">
+                <img src="images/gizlock/gizlock-04.png" alt="Gizlock - unlocked page" loading="eager">
               </div>
             </div>
           </div>
@@ -238,13 +243,13 @@
         <div class="project-features">
           <h3>Key Features</h3>
           <ul class="feature-grid">
-            <li><span class="feature-icon">&#x1F50A;</span> Volume Boost - Mute (0%) to 1000% on any tab</li>
-            <li><span class="feature-icon">&#x1F39B;</span> 12 Sound Profiles - Bass, Voice, Treble, Podcast, Rock, Pop &amp; more</li>
-            <li><span class="feature-icon">&#x1F313;</span> Dark Mode - Toggle light/dark, preference saved</li>
-            <li><span class="feature-icon">&#x2328;</span> Keyboard Shortcuts - 0-8 for landmarks, arrows for fine control</li>
-            <li><span class="feature-icon">&#x1F509;</span> Audible Tabs - See and switch to any tab playing audio</li>
-            <li><span class="feature-icon">&#x1F30D;</span> 54 Languages - Full UI translations</li>
-            <li><span class="feature-icon">&#x1F6E1;</span> Zero Trackers - No analytics, no telemetry, no external calls</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg></span> Volume Boost - Mute (0%) to 1000% on any tab</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><circle cx="4" cy="12" r="2"/><circle cx="12" cy="10" r="2"/><circle cx="20" cy="14" r="2"/></svg></span> 12 Sound Profiles - Bass, Voice, Treble, Podcast, Rock, Pop &amp; more</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span> Dark Mode - Toggle light/dark, preference saved</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><line x1="6" y1="10" x2="10" y2="10"/><line x1="12" y1="10" x2="14" y2="10"/><line x1="16" y1="10" x2="18" y2="10"/><line x1="8" y1="14" x2="16" y2="14"/></svg></span> Keyboard Shortcuts - 0-8 for landmarks, arrows for fine control</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/></svg></span> Audible Tabs - See and switch to any tab playing audio</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span> 54 Languages - Full UI translations</li>
+            <li><span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="5" y1="5" x2="19" y2="19"/></svg></span> Zero Trackers - No analytics, no telemetry, no external calls</li>
           </ul>
         </div>
 
@@ -253,16 +258,16 @@
           <div class="gallery" id="galleryHypevox">
             <div class="gallery-track" id="galleryTrackHypevox">
               <div class="gallery-item" data-full="images/hypevox/hypevox-01.png" data-caption="Extension popup - volume slider with sound profiles">
-                <img src="images/hypevox/hypevox-01.png" alt="HypeVox Extension Preview" loading="lazy">
+                <img src="images/hypevox/hypevox-01.png" alt="HypeVox Extension Preview" loading="eager">
               </div>
               <div class="gallery-item" data-full="images/hypevox/hypevox-02.png" data-caption="Dark mode - full theme support, preference saved">
-                <img src="images/hypevox/hypevox-02.png" alt="HypeVox Dark Mode" loading="lazy">
+                <img src="images/hypevox/hypevox-02.png" alt="HypeVox Dark Mode" loading="eager">
               </div>
               <div class="gallery-item" data-full="images/hypevox/hypevox-03.png" data-caption="Volume at 200% - 12 EQ presets to choose from">
-                <img src="images/hypevox/hypevox-03.png" alt="HypeVox - 200% volume with profiles" loading="lazy">
+                <img src="images/hypevox/hypevox-03.png" alt="HypeVox - 200% volume with profiles" loading="eager">
               </div>
               <div class="gallery-item" data-full="images/hypevox/hypevox-04.png" data-caption="54 languages - every label translated">
-                <img src="images/hypevox/hypevox-04.png" alt="HypeVox - language support" loading="lazy">
+                <img src="images/hypevox/hypevox-04.png" alt="HypeVox - language support" loading="eager">
               </div>
             </div>
           </div>
@@ -326,6 +331,9 @@
       <p class="lightbox-caption" id="lightboxCaption"></p>
     </div>
   </div>
+
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
 
   <script src="js/main.js"></script>
 </body>
